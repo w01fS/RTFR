@@ -4,8 +4,8 @@ Team Name: **_Learners and Visionaries_**
 Team Members: 
 1. Siddharth Goel (Team Leader)
 2. Kunal Yadav
-3. Pulkit Kaushik
-4. Prashant Agarwal
+3. Pulkit Kaushik (Left due to unforeseen circumstances)
+4. Prashant Agarwal (Left due to unforeseen circumstances)
 
 The RTFRC is an ongoing challenge at Meerut Institute of Engineering & Technology, Meerut.
 We are required to build a Real Time Face Recognition module to recognize the college students/employees from non-college people.
@@ -16,6 +16,7 @@ For the project, following technologies have been selected:
 1. **AWS Rekognition** -> For the Face Recognition services. Selected due to high accuracy at a fraction of cost.  
 2. **NodeJS** -> For the Back-End functionality of the onsite module. Will communicate with the Rekognition API to send images and receive the results. 
 3. **Python** -> For on-site image capturing. Will be developing a motion detection program to detect and capture images whenever motion occurs.
+4. **MySQL** -> Fulfills the needs for the database.  
 
 ## Week 1 
 Selecting the best possible tools for the job and modifying the approach to ensure maximum accuracy.  
@@ -35,7 +36,7 @@ The indexed faces of the current image are then removed from Rekognition collect
   
 ## Towards the Last Leg of the competition  
   
-1. Created  a basic Face Detection Script using OpenCV and HaarCascade.  
-The script is basic and Haar Cascade is used since it is more accurate than LMB Cascade.  
-
-2.  
+**Created  a basic Face Detection Script using OpenCV and HaarCascade**    
+The script is basic and Haar Cascade is used since it is more accurate than LMB Cascade. 
+The Script detects face(s) that are in the range/scope of camera/webcam.  
+The Script also saves those frames with faces to the desired location.   
